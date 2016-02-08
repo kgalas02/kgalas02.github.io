@@ -4,47 +4,63 @@
 	<title>Stylesheet for portfolio</title>
 	<style type="text/css">
 
-
- #menu {
-    width: 550px;
-    height: 35px;
-    font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 3px 2px 3px #333333;
-    background-color: #8AD9FF;
-        border-radius: 8px;
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
 }
-
-#menu ul {
-    height: auto;
-    padding: 8px 0px;
-    margin: 0px;
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
-
-#menu li { 
-display: inline; 
-padding: 20px; 
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
 }
-
-#menu li { 
-display: inline; 
-padding: 20px; 
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
 }
-
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
 </style>
 </head>
 
 <body> 
-
-<div id="menu">
-<ul>
-<li><a href="resume.html">Resume</a></li>
-<li><a href="contactus.html">Contact Us</a></li>
-</ul>
-</div>
- 
 
 </body> 
 </html>
