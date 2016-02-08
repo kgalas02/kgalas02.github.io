@@ -1,19 +1,17 @@
 body {
-	background-color: 
+	background-color: #d3d3d3;
 }
 
 ul {
-    background-color: black;
+    background-color: #00ffff;
+    list-style-type: none;
+    margin: 0;
+    float: 0;
+
 }
 
 li {
     float: left;
-}
-
-a {
-    display: block;
-    padding: 16px;
-    background-color: 00ffff;
 }
 
 li a {
@@ -25,5 +23,5 @@ li a {
 }
 
 li a:hover {
-	background-color: white;
+	background-color: black;
 }
