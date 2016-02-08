@@ -1,9 +1,25 @@
+body {
+
+}
+
 li {
     float: left;
 }
 
 a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 16px;
+    background-color: 00ffff;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
 }
