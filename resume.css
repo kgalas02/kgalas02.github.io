@@ -4,38 +4,31 @@
 	<title>Stylesheet for portfolio</title>
 	<style type="text/css">
 
-#navbar ul { 
-	margin: 0; 
-	padding: 5px; 
-	list-style-type: none; 
-	text-align: center; 
-	background-color: #000; 
-	} 
- 
-#navbar ul li {  
-	display: inline; 
-	} 
- 
-#navbar ul li a { 
-	text-decoration: none; 
-	padding: .2em 1em; 
-	color: #fff; 
-	background-color: #000; 
-	} 
- 
-#navbar ul li a:hover { 
-	color: #000; 
-	background-color: #fff; 
-	} 
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<ul><li><a href="aboutus.html">About Us</a></li>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+	</ul>
+</div>
 
 </style>
 </head>
 
 <body> 
-<div id="navbar"> 
-  <ul> 
-	<li><a href="resume.html">Resume</a></li> 
-  </ul> 
-</div> 
+ 
+ #menu {
+    width: 550px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #8AD9FF;
+        border-radius: 8px;
+}
+
 </body> 
 </html>
