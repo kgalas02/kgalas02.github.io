@@ -3,5 +3,9 @@ h1 {
 }
 
 h3 {
-	text-indent: 10px;
+	text-indent: 20px;
+}
+
+body {
+	background-color: #d3d3d3;
 }
