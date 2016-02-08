@@ -1,14 +1,5 @@
-<html>
-
-<head>
-	<title>Stylesheet for portfolio</title>
-	<style type="text/css">
-
-	
-</style>
-</head>
-
-<body> 
-
-</body> 
-</html>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
