@@ -25,3 +25,8 @@ p.margins {
 	margin-right: 10%;
 	margin-left: 10%;
 }
+
+body.margins {
+	margin-right: 10%;
+	margin-left: 10%;
+}
