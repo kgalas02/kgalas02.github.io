@@ -2,6 +2,10 @@ body {
 	background-color: #d3d3d3;
 }
 
+h1 {
+	text-align: center;
+}
+
 ul {
     background-color: #add8e6;
     list-style-type: none;
