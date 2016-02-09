@@ -10,7 +10,7 @@ ul {
     background-color: #add8e6;
     list-style-type: none;
     margin: 0;
-    float: 0;
+    float: none;
     overflow: hidden;
     position: fixed;
     top: 0;
