@@ -37,5 +37,10 @@ li:last-child {
     border-right: none;
 }
 
+img {
+     height: 400px;
+     width: 400px;
+     text-align: center;
+}
 /* www.w3schools.com/css was used to help make
 the navigation bar */
