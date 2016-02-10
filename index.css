@@ -38,9 +38,9 @@ li:last-child {
 }
 
 img {
-     height: 400px;
-     width: 400px;
-     text-align: center;
+     display: block;
+     width: auto;
+     margin: auto;
 }
 /* www.w3schools.com/css was used to help make
 the navigation bar */
